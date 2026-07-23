@@ -220,7 +220,19 @@ justify-content:center;
 
 .collection-image{
     height:320px;
-    background:linear-gradient(135deg,#222,#444);
+    background-size:cover;
+    background-position:center;
+}
+   .collection-card:nth-child(1) .collection-image{
+    background-image:url("https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80");
+}
+
+.collection-card:nth-child(2) .collection-image{
+    background-image:url("https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=800&q=80");
+}
+
+.collection-card:nth-child(3) .collection-image{
+    background-image:url("https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80");
 }
 
 .collection-card h3{
