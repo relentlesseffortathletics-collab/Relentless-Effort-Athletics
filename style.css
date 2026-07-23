@@ -217,23 +217,23 @@ justify-content:center;
     transform:translateY(-10px);
     border-color:#c9b27c;
 }
-
 .collection-image{
-    height:320px;
+    height:260px;
     background-size:cover;
     background-position:center;
+
 }
 .collection-card:nth-child(1) .collection-image{
-    background-image:url("https://picsum.photos/600/800?random=1");
+    background-image:url("https://picsum.photos/id/1005/600/700");
 }
 
 .collection-card:nth-child(2) .collection-image{
-    background-image:url("https://picsum.photos/600/800?random=2");
+    background-image:url("https://picsum.photos/id/64/600/700");
 }
 
 .collection-card:nth-child(3) .collection-image{
-    background-image:url("https://picsum.photos/600/800?random=3");
-}   
+    background-image:url("https://picsum.photos/id/26/600/700");
+}
 
 .collection-card h3{
     margin:25px 0 10px;
