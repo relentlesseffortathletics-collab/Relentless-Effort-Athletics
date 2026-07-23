@@ -29,10 +29,10 @@ nav{
     z-index:1000;
 }
 
-.logo{
-    font-family:'Cormorant Garamond',serif;
-    font-size:2rem;
-    letter-spacing:6px;
+.logo img{
+    height:70px;
+    width:auto;
+
 }
 
 nav ul{
